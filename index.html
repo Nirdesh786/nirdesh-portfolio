@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirdesh | Software Engineer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ambient-background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="name-title">Nirdesh</h1>
+                <h2 class="role-title">I build robust software solutions.</h2>
+                <p class="summary">
+                    I'm a passionate Software Engineer focused on crafting elegant solutions in C++, Java, and
+                    full-stack web development. I thrive on turning complex problems into intuitive, scalable programs.
+                </p>
+
+                <div class="social-links mt-8">
+                    <a href="https://github.com/Nirdesh786" target="_blank" aria-label="GitHub" class="social-icon"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nirdesh-yadav-b6551b298/" target="_blank" aria-label="LinkedIn"
+                        class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:nirdesh2003n@gmail.com" aria-label="Email" class="social-icon"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+
+                <div class="hero-actions mt-8">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-delayed">
+                <div class="profile-image-container glass">
+                    <img src="nirdesh_photo.jpg" alt="Nirdesh" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-header fade-in">
+                <h2 class="section-title"><span class="number">01.</span> Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- FitForge -->
+                <div class="project-card glass stagger-in">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="far fa-folder project-folder"></i>
+                            <div class="project-links">
+                                <a href="#" aria-label="GitHub Link"><i class="fab fa-github"></i></a>
+                                <a href="#" aria-label="External Link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">FitForge – Fitness Challenge Tracker</h3>
+                        <div class="project-description">
+                            <p>Developed a Full-Stack Fitness Challenge Tracker that enables users to set, monitor, and
+                                achieve long-term fitness goals. Implemented secure OAuth 2.0 user authentication and
+                                built a scalable RESTful API to manage user data.</p>
+                        </div>
+                        <ul class="tech-stack">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>MySQL</li>
+                            <li>Tailwind</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- LinguaLink -->
+                <div class="project-card glass stagger-in">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i class="far fa-folder project-folder"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Nirdesh786" target="_blank" aria-label="GitHub Link"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="#" aria-label="External Link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">LinguaLink – Language Exchange</h3>
+                        <div class="project-description">
+                            <p>Built a global language-learning platform with smart matching, real-time chat/video
+                                features, and progress tracking, enabling immersive peer-to-peer language learning with
+                                a clean, responsive UI.</p>
+                        </div>
+                        <ul class="tech-stack">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-header fade-in">
+                <h2 class="section-title"><span class="number">02.</span> Skills & Expertise</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="skills-container glass fade-in">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="pill">C++</span><span class="pill">Java</span><span
+                            class="pill">JavaScript</span><span class="pill">C</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="pill">MongoDB</span><span class="pill">MySQL</span><span
+                            class="pill">Git/GitHub</span><span class="pill">XAMPP</span><span class="pill">Tailwind
+                            CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-star"></i> Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="pill">Problem-Solving</span><span class="pill">Team Player</span><span
+                            class="pill">Effective Scheduling</span><span class="pill">Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="section-header fade-in">
+                <h2 class="section-title"><span class="number">03.</span> Education & Achievements</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="two-col-layout">
+                <div class="col fade-in">
+                    <h3 class="col-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Bachelor of Technology, CSE</h4>
+                            <p class="timeline-org">Lovely Professional University, Punjab</p>
+                            <p class="timeline-date">Aug 2023 - Present</p>
+                            <p class="timeline-meta focus-text">CGPA: 7.02</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Intermediate</h4>
+                            <p class="timeline-org">Arihant Public School, Kota</p>
+                            <p class="timeline-date">Mar 2021 - May 2022</p>
+                            <p class="timeline-meta">Percentage: 93%</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Matriculation</h4>
+                            <p class="timeline-org">Delhi Public School, Etawah</p>
+                            <p class="timeline-date">Mar 2019 - May 2020</p>
+                            <p class="timeline-meta">Percentage: 92.6%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col fade-in">
+                    <h3 class="col-title"><i class="fas fa-trophy"></i> Achievements & Training</h3>
+                    <div class="action-cards">
+                        <div class="action-card subtle-glass">
+                            <div class="ac-icon"><i class="fas fa-laptop-code"></i></div>
+                            <div class="ac-content">
+                                <h4>Data Structures & Algorithms in Java</h4>
+                                <p class="ac-org">Cipher Schools Training • Jun 2025 - Jul 2025</p>
+                                <p class="ac-desc">Intensive program covering core data structures, algorithms, and
+                                    practical mini-projects like an event scheduling system using custom
+                                    implementations.</p>
+                            </div>
+                        </div>
+
+                        <div class="action-card subtle-glass">
+                            <div class="ac-icon"><i class="fas fa-lightbulb"></i></div>
+                            <div class="ac-content">
+                                <h4>Smart India Hackathon 2025</h4>
+                                <p class="ac-org">National Level • Jun 2025</p>
+                                <p class="ac-desc">Selected and participated in the Prototype Round of the
+                                    national-level Smart India Hackathon 2025.</p>
+                            </div>
+                        </div>
+
+                        <div class="action-card subtle-glass">
+                            <div class="ac-icon"><i class="fab fa-hackerrank"></i></div>
+                            <div class="ac-content">
+                                <h4>HackerRank Silver Badge</h4>
+                                <p class="ac-org">Problem Solving • May 2024</p>
+                                <p class="ac-desc">Earned Silver Badge in C++, Java and Python on HackerRank for
+                                    problem-solving and coding proficiency.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="col-title mt-8"><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul class="cert-list">
+                        <li><span>DSA using Java</span> <span class="cert-issuer">CipherSchools • Jun '25</span></li>
+                        <li><span>Cloud Computing</span> <span class="cert-issuer">NPTEL • Apr '25</span></li>
+                        <li><span>Responsive Web Design</span> <span class="cert-issuer">freeCodeCamp • May '23</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-box glass text-center fade-in">
+                <span class="number">04. What's Next?</span>
+                <h2 class="contact-title">Get In Touch</h2>
+                <p class="contact-text">Currently looking for new opportunities. Whether you have a question, a project
+                    idea, or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-methods">
+                    <a href="mailto:nirdesh2003n@gmail.com" class="btn btn-primary btn-large">
+                        Say Hello <i class="fas fa-paper-plane"></i>
+                    </a>
+                    <p class="mt-4"><a href="tel:+918306969010" class="phone-link"><i class="fas fa-phone"></i> +91
+                            8306969010</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with <i class="fas fa-heart"></i> &amp; Vanilla Web Technologies</p>
+        <p>&copy; 2025 <a href="https://github.com/Nirdesh786" target="_blank">Nirdesh</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
