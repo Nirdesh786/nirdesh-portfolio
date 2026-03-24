@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaPuzzlePiece, FaBook, FaMusic } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaGraduationCap, FaBriefcase, FaPuzzlePiece, FaBook, FaMusic, FaFileDownload } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -121,9 +121,18 @@ const About = () => {
             className="glass-card p-8 border-slate-700/60 bg-slate-800/40"
           >
             <h3 className="text-2xl text-blue-400 font-semibold mb-4">My Approach</h3>
-            <p className="text-slate-300 text-sm md:text-base leading-relaxed">
+            <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-6">
               I focus on building technology that is not only functional but also impactful. Every piece of code I write is aimed at solving meaningful problems and improving user interaction. I believe in writing clean, maintainable code, working effectively in teams, and constantly learning to grow as a developer.
             </p>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600/20 text-blue-400 font-medium border border-blue-500/30 hover:bg-blue-600/30 hover:text-blue-300 transition-colors w-fit"
+            >
+              <FaFileDownload className="text-lg" />
+              Resume
+            </a>
           </motion.div>
 
         </div>

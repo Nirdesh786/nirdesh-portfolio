@@ -41,6 +41,7 @@ const Navbar = () => {
             <motion.a
               key={link.name}
               href={link.href}
+              {...(link.name === 'Resume' ? { target: "_blank", rel: "noopener noreferrer" } : {})}
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
@@ -72,6 +73,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
+                {...(link.name === 'Resume' ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 onClick={() => setIsOpen(false)}
                 className="text-lg font-medium text-slate-300 hover:text-primary transition-colors"
               >
